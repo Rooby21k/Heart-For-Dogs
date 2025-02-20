@@ -1,0 +1,46 @@
+.gradient-background {
+  /*background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);*/
+  background: linear-gradient(300deg, #3A618C,#744188, #E5B8E8);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body{
+  font-family: Playfair Display;
+}
+
+#footer{
+  font-size: 1.2rem;
+}
+
+.text-body-secondary{
+  color: black !important;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.d-block{
+  border-radius: 15px;
+  border: 6px solid white;
+  border-bottom: 2px;
+}
+
+.dog-rose{
+  border-radius: 50%;
+}
